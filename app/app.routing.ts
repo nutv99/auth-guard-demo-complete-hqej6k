@@ -6,6 +6,7 @@ import { LoginComponent } from './login';
 import { AuthGuard } from './_guards';
 import { Role } from './_models';
 
+const sPath = ['HomeComponent','AccountComponent']
 const appRoutes: Routes = [
     {
         path: '',
